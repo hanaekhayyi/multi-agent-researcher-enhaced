@@ -1,0 +1,42 @@
+# --- Secrets: never commit API keys ---
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Tests and tooling caches ---
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# --- Local databases (the app keeps its memory in RAM) ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Logs ---
+*.log
+
+# --- Editors and local assistant config ---
+.vscode/
+.idea/
+.claude/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini

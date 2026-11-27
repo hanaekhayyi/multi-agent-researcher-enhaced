@@ -1,0 +1,9 @@
+agno==3.2.1
+groq>=1.0
+streamlit>=1.40
+python-dotenv>=1.0
+httpx>=0.27
+ddgs
+newspaper4k
+lxml_html_clean
+ollama  # only needed for the local Ollama option
